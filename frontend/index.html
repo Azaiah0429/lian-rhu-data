@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lian RHU Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lian RHU Data</h1>
+        <form id="dataForm">
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="middleName" placeholder="Middle Name">
+            <input type="date" id="birthdate" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <input type="text" id="street" placeholder="Street" required>
+            <input type="text" id="barangay" placeholder="Barangay" required>
+            <input type="text" id="municipality" placeholder="Municipality" required>
+            <button type="submit">Submit</button>
+        </form>
+        <button id="searchButton">Search</button>
+        <div id="searchResults"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
